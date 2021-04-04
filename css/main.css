@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: #422261;
+  --main-bg-color: radial-gradient(circle, rgba(132,39,222,1) 0%, rgba(66,34,97,1) 100%);
   --face: #422261;
 }
 
@@ -14,7 +14,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: var(--main-bg-color);
+  background: rgb(132,39,222);
+  background: var(--main-bg-color);
 }
 
 .pumpkin {
